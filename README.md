@@ -1,4 +1,4 @@
-**Progetto di Codifica di Testi**
+#Progetto di Codifica di Testi
 
 Progetto per il corso di codifica di testi del professore Angelo Mario Del Grosso. 
 
