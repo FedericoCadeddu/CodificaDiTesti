@@ -1,0 +1,98 @@
+body {
+    background-color: #f1dca7;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.header, .footer {
+    background-color: #9b9b7a;
+    padding: 10px;
+    text-align: center;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+.section {
+    background-color: #d0b060;
+    margin-bottom: 100px;
+    padding: 20px;
+    text-align: center;
+}
+
+.descrizioni, .condizioni, .storia {
+    width: 45%;
+    margin: 0 2.5%;
+    text-align: center;
+}
+
+.immagini {
+    float: left;
+    width: 45%;
+    margin-right: 5%;
+}
+
+.immagini img {
+    width: 100%;
+    height: auto;
+}
+
+.testo {
+    width: 45%;
+    float: left;
+}
+
+.person_of_list, .place_of_list, .org_of_list {
+    
+    font-weight: bold;
+}
+
+.footer {
+    clear: both;
+}
+
+
+.triple-section {
+    background-color: #d0b060;
+    width: calc(33.33% - 20px); /* Imposta la larghezza di ciascun div (sottraendo il margine) */
+        margin-right: 20px; /* Margine destro tra i div */
+        float: left; /* Rendi i div flottanti */
+        box-sizing: border-box; /* Assicura che il padding e il bordo siano inclusi nella larghezza */
+        border: 1px solid #ccc; /* Aggiungi un bordo per separare i div */
+        padding: 10px; 
+        flex: 1;
+}
+
+.toggle-button {
+    text-align: center;
+    
+    cursor: pointer;
+    background-color: #d0b060;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.content {
+    display: none;
+}
+
+button {
+    padding: 10px 20px; /* Imposta il padding interno */
+        font-size: 16px; /* Imposta la dimensione del testo */
+        border: 2px solid black; /* Imposta il bordo e il colore */
+        border-radius: 7px; /* Imposta il bordo arrotondato */
+        background-color: #9b9b7a;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+
+.highlighted {
+    color:red; /* Cambia il colore a tuo piacimento */
+    font-weight: bold; /* Puoi aggiungere altri stili come il grassetto */
+  }
+

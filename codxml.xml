@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei-all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">Emanuele Artom, Diari: gennaio 1940 - febbraio 1944- Edizione digitale</title>
+                <author ref="#EA" role="composer">Emanuele Artom</author>
+                <respStmt>
+                    <resp>Lettera a cura di:</resp>
+                        <persName ref="AS">Amalia Segre Artom</persName> 
+                </respStmt>
+            </titleStmt>
+
+            <editionStmt> 
+                <edition>Edizione digitale
+                     <date when="2023">2023</date>
+                </edition>
+                <respStmt>	
+		            <resp>Progetto per l'esame "Codifica di testi" del professor: </resp>
+                    		<name ref="#AMDG">Angelo Mario Del Grosso</name>
+				</respStmt>
+                <respStmt>
+                    <resp>Responsabile della codifica: </resp>
+                    <name ref="FC">Federico Cadeddu</name>
+                </respStmt>
+            </editionStmt>
+ 
+            <publicationStmt>
+                <publisher>Università di Pisa</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <authority>Cadeddu</authority>
+                <availability>
+                    <p>lavoro ad accesso libero</p>
+                </availability>
+                <date when="2023">2023</date>            
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                            <country type="nation">Italia</country>
+                            <settlement>Milano</settlement>
+                            <repository role="history institute" ref="http://digital-library.cdec.it/cdec-web/storico/detail/IT-CDEC-ST0003-000006/diari.html"><orgName ref="#CDEC">Centro di documentazione ebraica contemporanea</orgName></repository> 
+                            <collection>Fondo Emanuele Artom</collection>
+                            <idno type="inventory">b.1, fasc.9 </idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <title>Diari</title>
+                            <author ref="#EA">Emanuele Artom</author>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="manuscript">
+                            <supportDesc material="paper">
+                            <support>
+                                    <material>Carta</material>
+                                </support>
+                                <extent>
+                                    <measure quantity="174">
+                                        Il manoscritto si compone di 2 pagine riguardante l'epigrafe scritta da <persName>Amalia Artom</persName>
+                                        più <num>172</num> riguardanti il diario.
+                                    </measure>
+                                </extent>
+                                <condition>
+                                    <p> Le pagine del manoscritto che ho trattato sono tenute abbastanza bene, escludendo le varie cancellature
+                                    o sbavature di inchiostro</p>
+                                </condition>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc hands="2">
+                            <handNote>
+                                <p>La prima pagina del manoscritto è stata scritta da 
+                                <persName ref="#AS">Amalia Artom</persName>
+                                Le restanti pagine sono interamente scritte da 
+                                <persName ref="#EA">Emanuele Artom</persName></p>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin from="1943-11" to="1944-02-1944">
+                            <p>I diari degli scritti autografi di <persName ref="EA">Emanuele Artom</persName> è frutto della ricerca e raccolta della documentazione intrapresa 
+                            da <persName ref="AS">Amalia Artom</persName> nell'immediato dopoguerra per il bisogno di ricordare o trasmettere le memorie del figlio Emanuele. Resi fruibili
+                            dalla madre quali fonti storiche sull'ebraismo e sulla Resistenza in Italia.</p>
+                        </origin>
+                        <acquisition>
+                            <p>Le carte del fondo Emanuele Artom sono state donate alla Fondazione CDEC su espressa volontà della madre <persName ref="AS">Amalia Segre Artom</persName></p>
+                        </acquisition>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+</teiHeader>
+
+        <facsimile>
+            <surface n="1" xml:id="pagina_7">
+                <graphic url='pag1.jpg' width='752px' height='1024px' n="1" />
+                        <zone ulx="510" uly="28" lrx="636" lry="60" xml:id="r0_p1f" rendition="line"/>
+                        <zone ulx="56" uly="47" lrx="680" lry="100" xml:id="r1_p1f" rendition="line" />
+                        <zone ulx="56" uly="95" lrx="710" lry="135" xml:id="r2_p1f" rendition="line"/>
+                        <zone ulx="55" uly="136" lrx="717" lry="169" xml:id="r3_p1f" rendition="line" />
+                        <zone ulx="59" uly="176" lrx="710" lry="207" xml:id="r4_p1f" rendition="line" />
+                        <zone ulx="68" uly="210" lrx="681" lry="243" xml:id="r5_p1f" rendition="line"/>
+                        <zone ulx="61" uly="244" lrx="694" lry="286" xml:id="r6_p1f" rendition="line"/>
+                        <zone ulx="67" uly="280" lrx="690" lry="324" xml:id="r7_p1f" rendition="line"/>
+                        <zone points = ' 47,311 686,334 683,371 35,350 ' xml:id="r8_p1f" rendition="line"/>
+                        <zone ulx="66" uly="352" lrx="671" lry="404" xml:id="r9_p1f" rendition="line"/>
+                        <zone ulx="66" uly="397" lrx="670" lry="437" xml:id="r10_p1f" rendition="line"/>
+                        <zone ulx="65" uly="444" lrx="690" lry="476" xml:id="r11_p1f" rendition="line" />
+                        <zone ulx="66" uly="477" lrx="687" lry="515" xml:id="r12_p1f" rendition="line"/>
+                        <zone ulx="63" uly="517" lrx="694" lry="562" xml:id="r13_p1f" rendition="line"/>
+                        <zone ulx="63" uly="563" lrx="686" lry="599" xml:id="r14_p1f" rendition="line"/>
+                        <zone ulx="63" uly="601" lrx="703" lry="639" xml:id="r15_p1f" rendition="line"/>
+                        <zone ulx="57" uly="639" lrx="686" lry="676" xml:id="r16_p1f" rendition="line"/>
+                        <zone ulx="52" uly="678" lrx="699" lry="714" xml:id="r17_p1f" rendition="line"/>
+                        <zone ulx="58" uly="716" lrx="667" lry="751" xml:id="r18_p1f" rendition="line"/>                            
+                        <zone ulx="59" uly="754" lrx="702" lry="788" xml:id="r19_p1f" rendition="line"/>
+                        <zone ulx="59" uly="790" lrx="705" lry="827" xml:id="r20_p1f" rendition="line"/>
+                        <zone ulx="59" uly="828" lrx="677" lry="864" xml:id="r21_p1f" rendition="line"/>
+                        <zone ulx="59" uly="865" lrx="658" lry="897" xml:id="r22_p1f" rendition="line"/>
+                        <zone ulx="64" uly="905" lrx="723" lry="929" xml:id="r23_p1f" rendition="line"/>
+                        <zone ulx="63" uly="937" lrx="698" lry="962" xml:id="r24_p1f" rendition="line"/>
+                        <zone ulx="62" uly="967" lrx="711" lry="994" xml:id="r25_p1f" rendition="line"/>
+            </surface>
+            <surface n="2" xml:id="pagina_8">
+                <graphic url='pag2.jpg' width='755px' height='1024px' n="2" />
+                        <zone ulx="38" uly="35" lrx="641" lry="70" xml:id="r1_p2f" rendition="line"/>
+                        <zone ulx="41" uly="71" lrx="685" lry="108" xml:id="r2_p2f" rendition="line"/>
+                        <zone ulx="43" uly="110" lrx="653" lry="138" xml:id="r3_p2f" rendition="line"/>
+                        <zone ulx="48" uly="142" lrx="700" lry="173" xml:id="r4_p2f" rendition="line" />
+                        <zone ulx="40" uly="175" lrx="662" lry="210" xml:id="r5_p2f" rendition="line"/>
+                        <zone ulx="41" uly="214" lrx="204" lry="244" xml:id="r6_p2f" rendition="line"/>
+                        <zone points = ' 47,258 208,254 351,248 496,239 687,239 685,268 495,272 332,271 181,290 50,290 ' xml:id="r7_p2f" rendition="polygon" />
+                        <zone points = ' 49,292 208,294 309,277 495,274 685,278 687,305 470,306 311,315 158,332 49,334 ' xml:id="r8_p2f" rendition="polygon"/>
+                        <zone points = ' 51,338 209,330 355,316 495,307 715,311 718,343 500,342 353,342 207,357 50,365 ' xml:id="r9_p2f" rendition="polygon"/>
+                        <zone points = ' 49,369 210,362 379,345 589,346 723,350 714,374 547,365 401,372 215,388 45,396 ' xml:id="r10_p2f" rendition="polygon"/>
+                        <zone points = ' 52,398 255,387 431,374 547,369 680,377 676,392 507,403 351,406 225,414 49,422 ' xml:id="r11_p2f" rendition="polygon"/>
+                        <zone points = ' 48,424 262,414 449,409 642,397 714,395 711,420 507,433 347,437 242,443 46,451 ' xml:id="r12_p2f" rendition="polygon" />
+                        <zone points = ' 52,453 255,444 455,437 718,425 716,450 523,460 375,466 245,468 48,478 ' xml:id="r13_p2f" rendition="polygon"/>
+                        <zone points = ' 50,480 208,473 420,468 639,458 727,457 718,483 527,490 348,494 48,503 ' xml:id="r14_p2f" rendition="polygon"/>
+                        <zone points = ' 50,508 257,501 495,494 708,486 701,506 528,518 357,526 194,524 51,526 ' xml:id="r15_p2f" rendition="polygon"/>
+                        <zone points = ' 50,530 231,528 359,530 551,522 723,518 725,545 520,546 371,550 217,552 48,553 ' xml:id="r16_p2f" rendition="polygon"/>
+                        <zone points = ' 47,558 207,555 399,554 543,548 732,548 728,568 541,570 369,579 215,578 47,583 ' xml:id="r17_p2f" rendition="polygon"/>
+                        <zone ulx="47" uly="584" lrx="727" lry="611" xml:id="r18_p2f" rendition="line"/>
+                        <zone ulx="45" uly="614" lrx="730" lry="644" xml:id="r19_p2f" rendition="line"/>
+                        <zone ulx="42" uly="646" lrx="716" lry="667" xml:id="r20_p2f" rendition="line"/>
+                        <zone ulx="46" uly="674" lrx="722" lry="702" xml:id="r21_p2f" rendition="line"/>
+                        <zone ulx="39" uly="703" lrx="710" lry="727" xml:id="r22_p2f" rendition="line"/>
+                        <zone ulx="39" uly="730" lrx="715" lry="762" xml:id="r23_p2f" rendition="line"/>
+                        <zone ulx="39" uly="764" lrx="719" lry="796" xml:id="r24_p2f" rendition="line"/>
+                        <zone ulx="39" uly="799" lrx="719" lry="831" xml:id="r25_p2f" rendition="line"/>
+                        <zone ulx="35" uly="833" lrx="709" lry="859" xml:id="r26_p2f" rendition="line"/>
+                        <zone ulx="36" uly="861" lrx="715" lry="890" xml:id="r27_p2f" rendition="line"/>
+                        <zone ulx="35" uly="891" lrx="696" lry="916" xml:id="r28_p2f" rendition="line"/>
+                        <zone ulx="36" uly="918" lrx="727" lry="953" xml:id="r29_p2f" rendition="line"/>
+                        <zone ulx="31" uly="954" lrx="691" lry="976" xml:id="r30_p2f" rendition="line"/>
+                        <zone points = ' 33,979 276,978 499,978 726,982 719,1004 502,1006 327,1003 184,997 38,991 ' xml:id="r31_p2f" rendition="polygon" />
+                        <zone ulx="33" uly="991" lrx="263" lry="1008" xml:id="r32_p2f" rendition="line"/>
+                        <zone ulx="17" uly="215" lrx="37" lry="866" xml:id="r33_p2f" rendition="line"/>
+            </surface>
+        
+        </facsimile>
+
+             <text hand = "#FC">
+                <group>
+                     <body>
+                        <text type="diary" n="1" id="text1">
+                            <ab>
+                            <!--codifica pagina 7-->
+                            <pb facs="#pagina_7" xml:id="pag1" n="25"/>
+                            <date when="1943-11-27" facs="r0_p1f" xml:id="r0_p1">27 nov</date>
+                            <lb facs="#r1_p1f" xml:id="r1_p1" n="1" />
+                            Il grande avvenimento di ieri fu la visita
+                             <lb facs="#r2_p1f" xml:id="r2_p1" n="2" />
+                             di papà. Alla mattina lavorai <del rend="scribble">al mio ufficio</del>
+                             <lb facs="#r3_p1f" xml:id="r3_p1" n="3" />
+                             per la banda. Ricevetti in un caffè un sergente
+                             <lb facs="#r4_p1f" xml:id="r4_p1" n="4" />
+                             maggiore e un negoziante di <placeName ref="#GI"> Gilba superiore </placeName>
+                             <lb facs="#r5_p1f" xml:id="r5_p1" n="5" />
+                             che riferirono sul movimento <orgName ref="#PRG">partigiano</orgName>
+                             <lb facs="#r6_p1f" xml:id="r6_p1" n="6" />
+                             nel loro paese; mi diedi un minuto d'aria
+                             <lb facs="#r7_p1f" xml:id="r7_p1" n="7" />
+                             e promisi solennemente al negoziante che
+                             <lb facs="#r8_p1f" xml:id="r8_p1" n="8" />
+                                <add place = "above">dopo la vittoria</add>
+                                ci saremmo ricordati di lui. Poi preparai la
+                            <lb facs="#r9_p1f" xml:id="r9_p1" n="9" />
+                            relazione e una dichiarazione per un
+                            <lb facs="#r10_p1f" xml:id="r10_p1" n="10" break="no" />
+                            ufficiale. Tutto qui. Avviene in queste <w>in
+                            <lb facs="#r11_p1f" xml:id="r11_p1" n="11" />
+                            combenze</w> militari che si sia occupati <damage agent="ink">tutto</damage>
+                            <lb facs="#r12_p1f" xml:id="r12_p1" n="12" />
+                            il giorno per un lavoro che richiede due o
+                            <lb facs="#r13_p1f" xml:id="r13_p1" n="13" />
+                            tre ore, ma i passanti,<del rend="scribble"><gap reason= "illegible"></gap></del> le chiacchiere degli
+                            <lb facs="#r14_p1f" xml:id="r14_p1" n="14" />
+                            altri soldati in ozio, 
+                                <del rend="scribble"><gap reason= "illegible"></gap></del> 
+                            il <w>fre<subst><del rend="overwrite">gg</del><add>dd</add></subst>o</w>, la
+                            <lb facs="#r15_p1f" xml:id="r15_p1" n="15" />
+                            mancanza di agi e tranquillità non <w>per
+                            <lb facs="#r16_p1f" xml:id="r16_p1" n="16" />
+                            mettono</w> neppure di studiare. Al pomeriggio
+                            <lb facs="#r17_p1f" xml:id="r17_p1" n="17"/>
+                            accompagnai <persName ref="FI">Fiore</persName> in infermeria. Tra tutti i
+                            <lb facs="#r18_p1f" xml:id="r18_p1" n="18" />
+                            <orgName ref="PCI">comunisti</orgName> autodidatti e piuttosto ignoranti,
+                            <lb facs="#r19_p1f" xml:id="r19_p1" n="19" />
+                            ignoranti spesso con pretese di cultura, come 
+                            <lb facs="#r20_p1f" xml:id="r20_p1" n="20" />
+                            quel tale che <del rend="scribble">dico</del> si vantava <add place="above">con me</add> di aver studiato
+                            <lb facs="#r21_p1f" xml:id="r21_p1" n="21"/>
+                            la madre di Gorki e Martin Eden di J.
+                            <lb facs="#r22_p1f" xml:id="r22_p1" n="22"  />
+                            London, <persName ref="FI">Fiore</persName> è il più evoluto e istruito,
+                            <lb facs="#r23_p1f" xml:id="r23_p1" n="23"  />
+                            uomo non più giovane, <del rend="scribble">poco</del> non combattivo
+                            <lb facs="#r24_p1f" xml:id="r24_p1" n="24"  />
+                            nè polemico, parla calmo e convinto con
+                            <lb facs="#r25_p1f" xml:id="r25_p1" n="25"  />
+                            molto buon senso. Credo che sappia scrivere
+                        </ab>
+                    </text>
+                    <text type="diary" n="2" id="text2">
+                            <!--codifica pagina 8-->
+                        <ab>
+                            <pb facs="#pagina_8" xml:id="pag2"/>
+                            <lb facs="#r1_p2f" xml:id="r1_p2" n="1"  />
+                            benino ed ha letto Marx direttamente.
+                            <lb facs="#r2_p2f" xml:id="r2_p2" n="2"  />
+                            Ieri mi ha detto che vorrebbe preparare un
+                            <lb facs="#r3_p2f" xml:id="r3_p2" n="3"  />
+                            giornale <orgName ref="PRG">partigiano</orgName> e mi ha chiesto la
+                            <lb facs="#r4_p2f" xml:id="r4_p2" n="4"  />
+                            mia collaborazione. Preparerò un articoletto
+                            <lb facs="#r5_p2f" xml:id="r5_p2" n="5"  />
+                            intitolato: 
+                                            <quote>i <orgName ref="PRG">partigiani</orgName> restituiscono l'Italia
+                            <lb facs="#r6_p2f" xml:id="r6_p2" n="6"  />
+                            all'Europa</quote>.
+                            <lb facs="#r7_p2f" xml:id="r7_p2" n="7"  />
+                            Alle 5 venni in paese e <del rend="scribble"></del> dai <persName>Segre</persName>
+                            <lb facs="#r8_p2f" xml:id="r8_p2" n="8"  />
+                            trovai papà, <del rend="scribble"><gap reason= "illegible"></gap></del>
+                                <add place="above">giunto con un giorno di</add>
+                                <w>anticip<del>ato</del><add place="overwrite">o</add></w>
+                                <del rend="scribble">di</del>
+                            <lb facs="#r9_p2f" xml:id="r9_p2" n="9"  />
+                            <del rend="scribble">un giorno la sua venuta</del>. La sua visita, dopo
+                            <lb facs="#r10_p2f" xml:id="r10_p2" n="10"  />
+                            <num>20</num> giorni di distanza, mi fece anche più <w>pia
+                            <lb facs="#r11_p2f" xml:id="r11_p2" n="11"  />
+                            cere</w> di quanto avrei creduto. <del rend="scribble">si stette insieme</del>
+                            <lb facs="#r12_p2f" xml:id="r12_p2" n="12"  />
+                            Per le poche ore che si fu insieme parlai quasi
+                            <lb facs="#r13_p2f" xml:id="r13_p2" n="13"  />
+                            continuamente io, descrivendo questa nuova
+                            <lb facs="#r14_p2f" xml:id="r14_p2" n="14"  />
+                            vita; accennai alla possibilità di essere eletto
+                            <lb facs="#r15_p2f" xml:id="r15_p2" n="15"  />
+                            commissario e dissi che spero di 
+                                <del rend="scribble"><unclear reason="illegible">solo</unclear></del> poter
+                            <lb facs="#r16_p2f" xml:id="r16_p2" n="16"  />
+                            salvare qualche <subst><del rend="scrible">condannato</del><add>imputato</add></subst> da
+                            <lb facs="#r17_p2f" xml:id="r17_p2" n="17"  />
+                            tribunali rivoluzionari; mi rispose <subst>
+							                <del rend="scribble"><gap reason="illegible"></gap></del>
+							                <add place="above">ricordandomi</add>
+						                    </subst>
+                            <lb facs="#r18_p2f" xml:id="r18_p2" n="18"  />
+                            il detto Talmudico che un tribunale che pronunzia
+                            <lb facs="#r19_p2f" xml:id="r19_p2" n="19"  />
+                            la condanna a morte una volta  <subst rend="above"><del rend="scribble">in un</del><add place="above"> per</add></subst> secolo deve
+                            <lb facs="#r20_p2f" xml:id="r20_p2" n="20"  />
+                            già essere considerato molto severo. <del rend="scribble"><gap reason="illegible"></gap></del>
+                            <lb facs="#r21_p2f" xml:id="r21_p2" n="21"  />
+                            Mi diede le fotografie per le tessere.
+                                <del rend="scribble"><gap reason="illegible"></gap></del>
+                                 Mi <w>ra
+                            <lb facs="#r22_p2f" xml:id="r22_p2" n="22"  />
+                            ccontò</w> che a <placeName ref="TO">Torino</placeName> in un consiglio di commissari
+                            <lb facs="#r23_p2f" xml:id="r23_p2" n="23"  />
+                            di fabbrica si presentò un tale come rappresentante
+                            <lb facs="#r24_p2f" xml:id="r24_p2" n="24"  />
+                            del <orgName ref="FM">Part.fasc.repubbl.</orgName> ma uno dei presenti gli
+                            <lb facs="#r25_p2f" xml:id="r25_p2" n="25"  />
+                            rispose: 
+                                    <quote>non <w><del rend="scribble"><unclear reason="illegible">ri</unclear></del>conosciamo</w> questo partito.</quote>
+                                     Al tribunale
+                            <lb facs="#r26_p2f" xml:id="r26_p2" n="26"  />
+                            di <placeName ref="TO">Torino</placeName> fu condannato un 
+                                <orgName ref="FM">fascista</orgName>, ma entrarono
+                            <lb facs="#r27_p2f" xml:id="r27_p2" n="27"  />
+                            nella sala altri fascisti con mitragliatrici, imposero
+                            <lb facs="#r28_p2f" xml:id="r28_p2" n="28"  />
+                            il suo rilascio e spararono ferendo il Presidente.
+                            <lb facs="#r29_p2f" xml:id="r29_p2" n="29"  />
+                            A <placeName ref="Cn">Castelnuovo</placeName> i ribelli asportarono tutto il grano del
+                            <lb facs="#r30_p2f" xml:id="r30_p2" n="30"  />
+                            silos e poi partirono lasciando come biglietto <choice><sic>di</sic><corr>da</corr></choice>
+                            <lb facs="#r31_p2f" xml:id="r31_p2" n="31"  />
+                            visita un cartello con su scritto: 
+                            
+                                    <quote>I PARTIGIANI.</quote>
+                            <lb facs="#r32_p2f" xml:id="r32_p2" n="32"  />   
+                            <add><gap reason="illegible"></gap></add> 
+                            <lb facs="#r33_p2f" xml:id="r33_p2" n="33"  /> 
+                            <add place="margin">Ho accompagnato papà alla stazione. Lo rivedrò ancora? Quando?</add>
+                        </ab>
+                    </text>
+                </body>
+            </group>
+
+                <back>
+                    <div>
+                        <listPerson>
+                        <!--Emanuele Artom-->
+                            <person xml:id = "EA" sex="M">
+                                <persName>
+                                    <forename>Emanuele</forename>
+                                    <surname>Artom</surname>
+                                </persName>
+                                <birth>
+                                    <date when="1915-06-23">23 giugno 1915</date>
+                                    <placeName>
+                                        <settlement type = "town">Aosta</settlement>
+                                        <region>Valle d'Aosta</region>
+                                        <country>Italia</country>
+                                    </placeName>
+                                </birth>
+                                <death>
+                                    <date when="1944-04-7">7 aprile 1944</date>
+                                    <placeName>
+                                        <settlement type = "town">Torino</settlement>
+                                        <region>Piemonte</region>
+                                        <country>Italia</country>
+                                    </placeName>
+                                </death>
+                            </person>
+
+                        <!--Amalia Segre-->
+                            <person xml:id = "AS" sex="F">
+                                <persName>
+                                    <forename>Amalia</forename>
+                                    <surname>Segre</surname>
+                                </persName>
+                                <birth>
+                                    <date when="1890">1890</date>
+                                    <placeName>
+                                        <settlement type = "town">Torino</settlement>
+                                        <region>Piemonte</region>
+                                        <country>Italia</country>
+                                    </placeName>
+                                </birth>
+                                <death>
+                                    <date when="1944-04-7">7 aprile 1944</date>
+                                    <placeName>
+                                        <settlement type = "town">Torino</settlement>
+                                        <region>Piemonte</region>
+                                        <country>Italia</country>
+                                    </placeName>
+                                </death>
+                            </person>
+
+                        <!--Paola de Benedetti-->
+                            <person xml:id="PDB" sex="F">
+                        			<persName> 
+							                <forename>Paola</forename>
+                            				<surname>De Benedetti</surname>
+                        			</persName>
+                        			
+			   			            <birth>
+                            				<date when="1934-09-09">09 Settembre 1934</date>
+                            				<placeName>
+                                				<settlement type="municipality">Alessandria</settlement>
+                                				<settlement type="provincia" key="AL">Alessandria</settlement>
+								                <country key="IT" type="nation">Italia</country>
+                            				</placeName>
+                        			</birth>  
+                                    <note> Curatrice dei diari di Emanuele Artom</note>
+                    			</person>
+
+					    <!-- Eloisa Ravenna -->
+                    			<person xml:id="ER" sex="F">
+                                    <persName> 
+                                        <forename>Eloisa</forename>
+                                        <surname>Ravenna</surname>
+                                    </persName>
+                                    <birth>
+                                        <date when="1930-12-12">12 Dicembre 1930</date>
+                                        <placeName ref="#TO">
+                                            <settlement type="town">Torino</settlement>
+                                            <region>Piemonte</region>
+                                            <country type="nation">Italia</country>
+                                        </placeName>
+                                    </birth>
+                                    <death>
+                                        <date when="1973-09-08">08 Settembre 1973</date>
+                                        <placeName ref="#TO">
+                                            <settlement type="town">Torino</settlement>
+                                            <region>Piemonte</region>
+                                            <country type="nation">Italia</country>
+                                        </placeName>
+                                    </death> 
+                                    <note> Curatrice dei diari di Emanuele Artom</note>
+                    			</person>
+
+                            <!--Federico Cadeddu-->
+                                <person xml:id="FC" sex="F">
+                                    <persName> 
+                                        <forename>Federico</forename>
+                                        <surname>Cadeddu</surname>
+                                    </persName>
+                                    <birth>
+                                        <date when="1995-07-02">2 Luglio 1995</date>
+                                        <placeName>
+                                            <settlement type="town">Oristano</settlement>
+                                            <region>Sardegna</region>
+                                            <country type="nation">Italia</country>
+                                        </placeName>
+                                    </birth>
+                                    <note> Responsabile della codifica</note>
+                    			</person>
+
+                            <!--Angelo Mario del Grosso-->
+                                <person xml:id="AMDG" sex="M">
+						            <persName>
+                                        <forename>Angelo</forename>
+                                        <forename>Mario</forename>
+                                        <surname>Del Grosso</surname>
+						            </persName>			
+					            </person>
+
+                            <!--Fiore-->
+                                
+                                <person xml:id="FI" sex="M">
+                                    <persName>Fiore</persName>
+                                    <birth>
+                                        <date>Sconosciuta</date>
+                                    </birth>
+                                    <death>
+                                        <date>Sconosciuta</date>
+                                    </death>
+                                    <note>Citato nel diario di Emanuele Artom a pagina 7 riga 17 e 22.</note>
+                                </person>
+                            </listPerson>
+                            
+                            <listPlace>
+                            <!--Torino-->
+                                <place xml:id = "TO">
+                                    <placeName>Torino</placeName>
+                                    <region>Piemonte</region>
+                                    <country type="nation">Italia</country>
+                                </place>
+                            <!--Gilba-->
+                                <place xml:id = "GI">
+                                    <placeName>Valle di Gilba</placeName>
+                                    <settlement type="provincia">Cuneo</settlement>
+                                    <region>Piemonte</region>
+                                    <country type="nation">Italia</country>
+                                    <note>Nominato a riga 4</note>
+                                </place>
+                            
+                            <!--Castelnuovo-->
+                                <place xml:id = "Cn">
+                                    <placeName>Castelnuovo</placeName>
+                                    <settlement type="provincia">Trento</settlement>
+                                    <region>Trentino-Alto Adige</region>
+                                    <country type="nation">Italia</country>
+                                    <note>Nominato a riga 29</note>
+                                </place>
+                            </listPlace>
+
+                            <listOrg>
+                            <!--Partigiani-->
+                                <org xml:id = "PRG">
+                                    <orgName> Partigiani </orgName>
+                                    <desc>  I partigiani sono combattenti civili con partecipazione volontaria, organizzati in bande e 
+                                    non indossano uniformi o altri segni di riconoscimento.</desc>
+                                </org>
+                            
+                            <!--Fascisti-->
+                                <org xml:id = "FM">
+                                     <orgName> Partito Nazionale Fascista</orgName>
+                                     <desc> Il Partito Nazionale Fascista (PNF) è stato un partito politico italiano, espressione del movimento fascista. 
+                                     Nato nel novembre 1921 dalla trasformazione in partito del movimento Fasci italiani di combattimento,
+                                    guidò la cosiddetta marcia su Roma che nell'autunno del 1922 portò Benito Mussolini a divenire presidente del Consiglio dei ministri.
+                                    </desc>
+                                </org>
+                            
+                            <!--Comunisti-->
+                                <org xml:id = "PCI">
+                                    <orgName> Partito Comunista Italiano</orgName>
+                                    <desc> Il Partito Comunista Italiano (PCI) è stato un partito politico italiano di sinistra. Venne fondato il 21 gennaio 1921 a Livorno.
+                                    Durante il regime fascista, dal 1926 lo costrinse alla clandestinità e l'esilio fino al 1943.</desc>
+                                </org>
+                            <!--Centro di documentazione ebraica contemporanea-->
+                                <org xml:id="CDEC" role="history insitute">
+                                    <orgName ref="https://www.cdec.it">Centro di documentazione ebraica contemporanea</orgName>
+                                    <desc>
+                                        La Fondazione CDEC viene ufficialmente istituita nel 1986 con sede a Milano, per proseguire  l’opera del Centro di Documentazione Ebraica Contemporanea fondato a Venezia nel 1955.
+                                        È un istituto di ricerca indipendente per la promozione e lo studio delle vicende, della cultura e della realtà degli ebrei in Italia dall’Emancipazione ai giorni nostri, con particolare
+                                         riferimento all’Italia  contemporanea e al periodo nazi-fascista.
+                                    </desc>					
+                                </org>
+                            
+                            
+                            </listOrg>
+
+                            <listBibl>
+                                <bibl>
+                                    <title>Diari di un partigiano ebreo.</title>
+                                    <author>G. Schwarz</author>
+                                    <publisher>Bollati Boringhieri</publisher>
+                                    <date when="2008">2008</date>
+                                    <editor role="curator">
+                                        <forename>Guri</forename>
+                                        <surname>Schwarz</surname>
+                                    </editor>
+                                </bibl>
+                                <bibl>
+                                    <title>Emanuele Artom, Diari: gennaio 1940 - febbraio 1944</title>
+                                    <author ref = "EA">Emanuele Artom</author>
+                                    <editor ref="#PDB" role="curator">
+                                        <forename>Paola</forename>
+                                        <surname>De Benedetti</surname>
+                                    </editor>
+                                    <editor ref="#ER" role="curator">
+                                        <forename>Eloisa</forename>
+                                        <surname>Ravenna</surname>
+                                    </editor>
+                                    <publisher>
+                                        <orgName ref="#CDEC">Centro di documentazione ebraica contemporanea</orgName>
+                                    </publisher>
+                                    <date when="1966">1996</date>
+                                </bibl>
+                            </listBibl>
+                        </div>
+		</back>
+	</text>
+</TEI>
+
+
+                            
+
+                             
