@@ -278,20 +278,7 @@
 
 
 
-    <!--
-    <xsl:template match="tei:lb">
-            <xsl:element name="br"></xsl:element>
-            <xsl:element name="span">
-                <xsl:attribute name="id">
-                    <xsl:value-of select="@facs"/>
-                </xsl:attribute>
-                <xsl:attribute name="class">numero_riga</xsl:attribute>
-                <xsl:value-of select="@n" />
-                <xsl:text>     </xsl:text>
-            </xsl:element>
-        
-    </xsl:template>
-    -->
+    
     <xsl:template match="tei:text[@xml:id='text2']/tei:lb">
             <xsl:element name="br"></xsl:element>
             <xsl:element name="span">
