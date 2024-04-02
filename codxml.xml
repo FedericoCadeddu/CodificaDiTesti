@@ -164,8 +164,8 @@
 
              <text hand = "#FC">
                 <group>
-                     <body>
-                        <text type="diary" n="1" id="text1">
+                    <text type="diary" n="1" xml:id="text1">
+                        <body>
                             <ab>
                             <!--codifica pagina 7-->
                             <pb facs="#pagina_7" xml:id="pag1" n="25"/>
@@ -223,11 +223,13 @@
                             nè polemico, parla calmo e convinto con
                             <lb facs="#r25_p1f" xml:id="r25_p1" n="25"  />
                             molto buon senso. Credo che sappia scrivere
-                        </ab>
+                            </ab>
+                        </body>
                     </text>
-                    <text type="diary" n="2" id="text2">
+                    <text type="diary" n="2" xml:id="text2">
+                        <body>
                             <!--codifica pagina 8-->
-                        <ab>
+                            <ab>
                             <pb facs="#pagina_8" xml:id="pag2"/>
                             <lb facs="#r1_p2f" xml:id="r1_p2" n="1"  />
                             benino ed ha letto Marx direttamente.
@@ -310,9 +312,9 @@
                             <add><gap reason="illegible"></gap></add> 
                             <lb facs="#r33_p2f" xml:id="r33_p2" n="33"  /> 
                             <add place="margin">Ho accompagnato papà alla stazione. Lo rivedrò ancora? Quando?</add>
-                        </ab>
+                            </ab>
+                        </body>
                     </text>
-                </body>
             </group>
 
                 <back>

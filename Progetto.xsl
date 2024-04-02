@@ -51,8 +51,8 @@
             </section>
             -->
             
-            <xsl:apply-templates select="//tei:text[@id='text1']"/>
-            <xsl:apply-templates select="//tei:text[@id='text2']"/>
+            <xsl:apply-templates select="//tei:text[@xml:id='text1']"/>
+            <xsl:apply-templates select="//tei:text[@xml:id='text2']"/>
 
             <section>
               <div>
@@ -219,7 +219,7 @@
 
 
     
-    <xsl:template match="tei:text[@id='text1']">
+    <xsl:template match="tei:text[@xml:id='text1']">
         <!-- Aggiungi una classe al primo testo e specifica l'ID -->
         <div class="manu" id="originalText1">
             <xsl:apply-templates/>
@@ -233,7 +233,7 @@
     </xsl:template>
 
 <!-- Template per il testo con ID "text2" -->
-    <xsl:template match="tei:text[@id='text2']">
+    <xsl:template match="tei:text[@xml:id='text2']">
         <!-- Aggiungi una classe al secondo testo e specifica l'ID -->
         <div class="manu" id="originalText2">
             <xsl:apply-templates/>
@@ -248,7 +248,7 @@
     <xsl:template match="tei:lb">
     <xsl:choose>
         <!-- Se il testo ha ID "text1", applica questa logica -->
-        <xsl:when test="ancestor::tei:text[@id='text1']">
+        <xsl:when test="ancestor::tei:text[@xml:id='text1']">
             <!-- Aggiungi classe specifica per text1 -->
             <xsl:element name="br"></xsl:element>
             <xsl:element name="span">
@@ -261,7 +261,7 @@
             </xsl:element>
         </xsl:when>
         <!-- Se il testo ha ID "text2", applica questa logica -->
-        <xsl:when test="ancestor::tei:text[@id='text2']">
+        <xsl:when test="ancestor::tei:text[@xml:id='text2']">
             <!-- Aggiungi classe specifica per text2 -->
             <xsl:element name="br"></xsl:element>
             <xsl:element name="span">
@@ -292,7 +292,7 @@
         
     </xsl:template>
     -->
-    <xsl:template match="tei:text[@id='text2']/tei:lb">
+    <xsl:template match="tei:text[@xml:id='text2']/tei:lb">
             <xsl:element name="br"></xsl:element>
             <xsl:element name="span">
                 <xsl:attribute name="id">
