@@ -42,14 +42,6 @@
                 <xsl:apply-templates select="//tei:facsimile" />
               </div>
             </section>
-            <!--
-            <section>
-              <div class="manu">
-                <h4>Testo:</h4>
-                <xsl:apply-templates select="//tei:group" />
-              </div>
-            </section>
-            -->
             
             <xsl:apply-templates select="//tei:text[@xml:id='text1']"/>
             <xsl:apply-templates select="//tei:text[@xml:id='text2']"/>
@@ -220,21 +212,17 @@
 
     
     <xsl:template match="tei:text[@xml:id='text1']">
-        <!-- Aggiungi una classe al primo testo e specifica l'ID -->
         <div class="manu" id="originalText1">
             <xsl:apply-templates/>
             <div class="button-container1">
-            <!-- Pulsante per l'operazione "del" sul testo con ID "originalText1" -->
                 <button id="btn_tag1_1" onclick="showTag('del', 'originalText1', 'btn_tag1_1')">del</button>
-                <!-- Pulsante per l'operazione "add" sul testo con ID "originalText1" -->
                 <button id="btn_tag3_1" onclick="showTag('add', 'originalText1', 'btn_tag3_1')">add</button>
             </div>
         </div>
     </xsl:template>
 
-<!-- Template per il testo con ID "text2" -->
+
     <xsl:template match="tei:text[@xml:id='text2']">
-        <!-- Aggiungi una classe al secondo testo e specifica l'ID -->
         <div class="manu" id="originalText2">
             <xsl:apply-templates/>
             <div class="button-container2">
@@ -247,9 +235,7 @@
 
     <xsl:template match="tei:lb">
     <xsl:choose>
-        <!-- Se il testo ha ID "text1", applica questa logica -->
         <xsl:when test="ancestor::tei:text[@xml:id='text1']">
-            <!-- Aggiungi classe specifica per text1 -->
             <xsl:element name="br"></xsl:element>
             <xsl:element name="span">
                 <xsl:attribute name="id">
@@ -260,9 +246,7 @@
                 <xsl:text>     </xsl:text>
             </xsl:element>
         </xsl:when>
-        <!-- Se il testo ha ID "text2", applica questa logica -->
         <xsl:when test="ancestor::tei:text[@xml:id='text2']">
-            <!-- Aggiungi classe specifica per text2 -->
             <xsl:element name="br"></xsl:element>
             <xsl:element name="span">
                 <xsl:attribute name="id">
@@ -278,20 +262,7 @@
 
 
 
-    <!--
-    <xsl:template match="tei:lb">
-            <xsl:element name="br"></xsl:element>
-            <xsl:element name="span">
-                <xsl:attribute name="id">
-                    <xsl:value-of select="@facs"/>
-                </xsl:attribute>
-                <xsl:attribute name="class">numero_riga</xsl:attribute>
-                <xsl:value-of select="@n" />
-                <xsl:text>     </xsl:text>
-            </xsl:element>
-        
-    </xsl:template>
-    -->
+    
     <xsl:template match="tei:text[@xml:id='text2']/tei:lb">
             <xsl:element name="br"></xsl:element>
             <xsl:element name="span">
